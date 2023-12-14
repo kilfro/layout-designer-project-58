@@ -1,4 +1,21 @@
 /** CSS STYLE **/
+@font-face {
+  font-family: OpenSans;
+  font-weight: normal;
+  src: url('../../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: OpenSans;
+  font-weight: bold;
+  src: url('../../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url('../../fonts/Neucha-Regular.ttf');
+}
+
 :root {
   --white: #fff;
   --translucent-white: #d7ccc0;
