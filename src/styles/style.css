@@ -57,10 +57,16 @@ h3 {
   font-size: 34px;
 }
 
-header, main, footer, section {
+header, footer, section {
   padding: 100px 165px;
-  overflow: hidden;
   position: relative;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .clr-primary {
@@ -113,4 +119,18 @@ header, main, footer, section {
   border: none;
   cursor: pointer;
   margin-top: 24px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.video-container {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  height: 369px;
+  z-index: 100;
 }
