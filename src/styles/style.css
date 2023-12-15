@@ -62,6 +62,15 @@ header, footer, section {
   position: relative;
 }
 
+header, footer, section * {
+  z-index: 300;
+}
+
+.z-top {
+  position: relative;
+  z-index: 300;
+}
+
 .centered {
   display: flex;
   flex-direction: column;
@@ -84,7 +93,7 @@ header, footer, section {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1000;
+  z-index: 1;
   opacity: 0.1;
 }
 
@@ -92,12 +101,20 @@ header, footer, section {
   background-color: var(--primary-dark);
 }
 
+.bg-brown {
+  background-color: var(--brown);
+}
+
+.bg-light {
+  background-color: var(--light);
+}
+
 .header-section img {
   height: 525px;
   position: absolute;
   top: 55px;
   right: -105px;
-  z-index: -100;
+  z-index: 100;
 }
 
 .col-2 {
