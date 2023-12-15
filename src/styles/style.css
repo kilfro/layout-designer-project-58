@@ -226,6 +226,61 @@ header, footer, section * {
   color: var(--white);
 }
 
+.send-email-block {
+  padding: 55px;
+}
+
+.info {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.info a {
+  color: var(--blue)
+}
+
+.email-block {
+  margin-top: -17px;
+}
+
+.input-block {
+  display: flex;
+  margin-top: 9px;
+}
+
+.email-input {
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.send-btn {
+  height: 50px;
+  flex-basis: 70px;
+  border: none;
+  border-radius: 0;
+  background-color: var(--primary)
+}
+
+.send-btn::before {
+  content: '';
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image: url('../../images/send.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rules {
+  font-size: 12px;
+}
+
 .clr-primary {
   color: var(--primary);
 }
