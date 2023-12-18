@@ -153,11 +153,11 @@ header, footer, section * {
 }
 
 .video-section {
-  margin-bottom: -100px;
+  margin-bottom: -84px;
 }
 
 .navigation {
-  margin-top: 126px;
+  margin-top: 110px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
