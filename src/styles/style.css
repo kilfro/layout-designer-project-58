@@ -122,9 +122,12 @@ header, footer, section * {
 
 .btn-primary {
   text-transform: uppercase;
+  display: inline-block;
   font-size: 16px;
   padding: 12px 24px;
+  line-height: 25.6px;
   font-weight: bold;
+  text-decoration: none;
   color: var(--light);
   background-color: var(--primary);
   border: none;
