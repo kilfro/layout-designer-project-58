@@ -332,3 +332,7 @@ header, footer, section * {
 .bg-white {
   background-color: var(--white);
 }
+
+.mb-1 {
+  margin-bottom: 1em !important;
+}
