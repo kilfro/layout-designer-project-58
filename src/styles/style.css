@@ -241,6 +241,10 @@ header, footer, section * {
   color: var(--white);
 }
 
+.how-work p {
+  margin: 0;
+}
+
 .send-email-block {
   padding: 55px;
 }
