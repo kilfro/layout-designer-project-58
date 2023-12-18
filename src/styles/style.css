@@ -62,10 +62,13 @@ h3 {
   font-size: 34px;
 }
 
+header {
+  overflow-x: hidden;
+}
+
 header, footer, section {
   padding: 100px 165px;
   position: relative;
-  overflow-x: hidden;
 }
 
 header, footer, section * {
