@@ -152,6 +152,10 @@ header, footer, section * {
   z-index: 100;
 }
 
+.video-section {
+  margin-bottom: -116px;
+}
+
 .navigation {
   margin-top: 126px;
   display: flex;
@@ -288,10 +292,6 @@ header, footer, section * {
   background-position: center;
 }
 
-.pb-84 {
-  padding-bottom: 84px;
-}
-
 .rules {
   font-size: 12px;
 }
@@ -326,8 +326,4 @@ header, footer, section * {
 
 .bg-white {
   background-color: var(--white);
-}
-
-.ytp-title-channel-logo {
-  visibility: hidden;
 }
