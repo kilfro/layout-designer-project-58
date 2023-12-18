@@ -30,6 +30,7 @@
 
 html {
   scroll-behavior: smooth;
+  width: 1440px;
 }
 
 body {
@@ -64,6 +65,7 @@ h3 {
 header, footer, section {
   padding: 100px 165px;
   position: relative;
+  overflow-x: hidden;
 }
 
 header, footer, section * {
